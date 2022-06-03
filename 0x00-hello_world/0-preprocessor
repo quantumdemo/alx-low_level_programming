@@ -1,7 +1,3 @@
 #!/bin/bash
-<<<<<<< HEAD
-gcc -E  -o c
-
-=======
 gcc -E $CFILE -o c
->>>>>>> a98d2d3cded3dccb271727009998c0a377366949
+
