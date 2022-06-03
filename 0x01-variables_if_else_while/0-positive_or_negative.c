@@ -6,7 +6,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
-	 */ 
+ */
 	int main(void)
 {
 	int n;
@@ -21,12 +21,9 @@
 	{
 		printf("%d is zero\n", n);
 	}
-	else
+	if (n < 0)
 	{
-		if (n < 0)
-		{
-				printf("%d is negative\n", n);
-		}	
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
