@@ -10,8 +10,6 @@ int main(void)
 {
 	char lc;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		putchar(lc);
