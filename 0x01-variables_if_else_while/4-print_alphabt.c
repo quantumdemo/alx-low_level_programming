@@ -10,7 +10,7 @@ int main(void)
 {
 	char lc;
 
-	for (lc = 'a'; (lc != 'q' && lc != 'e'); lc <= 'z')
+	for (lc = 'a'; lc != 'q' && lc != 'e'; lc <= 'z')
 	{
 		putchar(lc);
 		putchar('\n');
