@@ -11,9 +11,7 @@ int main(void)
 	char lc;
 
 	for (lc = 'a'; lc <= 'z'; lc++)
-	{
-		putchar("%c\n", lc);
-	}
+	putchar("%c\n", lc);
 	return (0);
 }
 
