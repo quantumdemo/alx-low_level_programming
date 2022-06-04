@@ -14,11 +14,11 @@ int main(void)
 	{
 		putchar((num % 16) + '0');
 	}
-	char num;
+	char lsd;
 
-	for (num = 'a'; num >= 'f'; num++)
+	for (lsd = 'a'; lsd >= 'f'; lsd++)
 	{
-		putchar(num);
+		putchar(lsd);
 	}
 	putchar('\n');
 }
