@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * lower anduppercase alpha
+ * main - lower  and uppercase alpha
  *
  * Return:  always 0
  */
