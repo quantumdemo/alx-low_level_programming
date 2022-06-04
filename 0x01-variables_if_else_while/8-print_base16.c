@@ -8,17 +8,16 @@
  */
 int main(void)
 {
-	int num;
+	char num;
 
-	for (num = 0; num <= 9; num++)
+	for (num = '0'; num <= '9'; num++)
 	{
 		putchar((num % 16) + '0');
 	}
-	char lsd;
-
-	for (lsd = 'a'; lsd >= 'f'; lsd++)
+	for (num = 'a'; num >= 'f'; num++)
 	{
-		putchar(lsd);
+		putchar(num);
 	}
 	putchar('\n');
+	return (0);
 }
