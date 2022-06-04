@@ -9,14 +9,15 @@
 int main(void)
 {
 	char num;
-
+	char lsd:
+		
 	for (num = '0'; num <= '9'; num++)
 	{
 		putchar((num % 16) + '0');
 	}
-	for (num = 'a'; num >= 'f'; num++)
+	for (lsd = 'a'; lsd >= 'f'; lsd++)
 	{
-		putchar(num);
+		putchar(lsd);
 	}
 	putchar('\n');
 	return (0);
