@@ -13,7 +13,7 @@ int main(void)
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		if (lc != 'q' && lc != 'e')
-		putchar(lc);
+		putchar( lc);
 	}
 	return (0);
 }
