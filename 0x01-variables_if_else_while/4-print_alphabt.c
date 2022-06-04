@@ -10,8 +10,9 @@ int main(void)
 {
 	char lc;
 
-	for (lc = 'a'; lc != 'q' && lc != 'e'; lc <= 'z')
+	for (lc = 'a'; lc <= 'z')
 	{
+		if (lc != 'q' && lc != 'e')
 		putchar(lc);
 		putchar('\n');
 	}
