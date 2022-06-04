@@ -18,7 +18,7 @@ int main(void)
 	for (lsd = 'a'; lsd >= 'f'; lsd++)
 	{
 		putchar(lsd);
+		putchar('\n');
 	}
-	putchar('\n');
 	return (0);
 }
