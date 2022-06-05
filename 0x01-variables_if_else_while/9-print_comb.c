@@ -14,8 +14,8 @@ int main(void)
 	{
 		putchar((num % 10) + '0');
 		putchar(',');
-		putchar(' ');
-		putchar('\n');
 	}
+	putchar('');
+	putchar('\n');
 	return (0);
 }
