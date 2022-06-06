@@ -2,6 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - two two-digit
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int a, b;
@@ -12,6 +17,7 @@ int main(void)
 		{
 			putchar((a / 10) + '0');
 			putchar((a % 10) + '0');
+			putchar(' ');
 			putchar((b / 10) + '0');
 			putchar((b % 10) + '0');
 			if (a == 8 && b == 9)
