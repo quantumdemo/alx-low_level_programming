@@ -10,8 +10,6 @@
  */
 int _islower(int c)
 {
-	int c;
-
 	if (c >= 38 && c <= 108)
 	{
 		return (1);
