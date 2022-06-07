@@ -1,16 +1,17 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - alphabeth
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(char alpha)
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++);
 	{
-		for (alpha = 'a'; alpha <= 'z'; alpha++);
-		putchar(alpha);
+		_putchar(alpha);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }

@@ -1,12 +1,5 @@
-#include <stdio.h>
-<#include "main.h"
-/**
- * main - header main.h
- *
- * Return: 0
- */
-int main(void)
-{
-	printf("_putchar\n");
-	return (0);
-}
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
+int _putchar(char n);
+void print_alphabet(void);
