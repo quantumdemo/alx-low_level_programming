@@ -7,4 +7,5 @@
 int main(void)
 {
 	printf("_purchar\n");
+	return (0);
 }
