@@ -1,11 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - header file
+ * main - print
  *
  * Return: 0
  */
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+	printf("_purchar\n");
 }
