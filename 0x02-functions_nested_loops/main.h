@@ -5,9 +5,8 @@
  *
  * Return: 0
  */
-int main(int a)
+int main(void)
 {
-	a = 2;
-	printf(a);
+	printf("_putchar\n");
 	return (0);
 }
