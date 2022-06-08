@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * int _islower - alphabeth
+ * _islower - alphabeth
  *
  *  @c: The character to evaluate
  *
