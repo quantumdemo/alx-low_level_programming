@@ -10,12 +10,12 @@
  */
 int _islower(int c)
 {
-	if (c >= 38 && c <= 108)
+	char i;
+
+	for (i = 'a'; i  <= 'z'; i++)
 	{
-		return (1);
+		if (i == c)
+			return (1);
 	}
-	else
-	{
-		return (0);
-	}
+	return (0);
 }
