@@ -15,7 +15,7 @@ int _isalpha(int c)
 		for (n2 = 'A'; n2 <= 'Z'; n2++)
 		{
 			if (n1 == c || n2 == c)
-				return (0);
+				return (1);
 		}
 	}
 	return (1);
