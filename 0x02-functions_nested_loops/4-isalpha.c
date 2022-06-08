@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _isalpha - lowercase or uppercase
- *
- * Description: function returns 1 if the character
+ * @c: An input character
+ * Description: function returns 1 if the character is a
  * Return: 1 or 0 in otherwise.
  */
 int _isalpha(int c)
@@ -18,5 +18,5 @@ int _isalpha(int c)
 				return (1);
 		}
 	}
-	return (1);
+	return (0);
 }
