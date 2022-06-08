@@ -7,22 +7,23 @@
  */
 int print_sign(int n)
 {
-	int operand;
+	int value;
 
-	for (operand = 0)
+	if (n == 0)
 	{
-		if (n == operand)
-			return (0);
+		value = 0;
+		_putchar('0');
 	}
-	for (operand > 0)
+	if (n > 0)
 	{
-		if (n == operand)
-			return (1);
+		value = 1;
+		_putchar('+');
 	}
-	for (operand < 0)
+	else
 	{
-		if (n == operand)
-			return (-1);
+		value = -1;
+		_putchar('-');
 	}
+	return (value);
 }
 	
