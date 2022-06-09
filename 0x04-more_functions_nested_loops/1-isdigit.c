@@ -10,10 +10,11 @@
  */
 int _isdigit(int c)
 {
+	int result;
+
 	for (c = 0; c <= 9; c++)
 	{
-		if (c == 9)
-		return (1);
+		result = 1;
 	}
-	return (0);
+	result = 0;
 }
