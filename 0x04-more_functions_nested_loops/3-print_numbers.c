@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (a = 0; a <= 9; a++)
 	{
-		_putxhar(a + '0');
+		_putxhar(a);
 	}
 	return (0);
 }
