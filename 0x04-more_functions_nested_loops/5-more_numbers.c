@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * more_numbers - prints 10 times the numbers
- * @c: variable
- * @n: variable
+ * more_numbers - prints  times the numbers
  */
 void more_numbers(void)
 {
@@ -16,7 +14,7 @@ void more_numbers(void)
 			continue;
 	}
 	n--;
-	_putchar(9);
+	_putchar(9 + '0');
 	c++;
 	_putchar('\n');
 }
