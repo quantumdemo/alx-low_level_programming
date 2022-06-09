@@ -4,19 +4,10 @@
  */
 void print_line(int n)
 {
-	if (n == 2)
+	while (n <= 0)
 	{
-		_putchar('__');
+		_putchar('_');
+		n++;
 	}
-	else
-		if (n == 10)
-		{
-			_putchar('__________');
-		}
 	_putchar('\n');
-		else
-			if (n <= 0)
-			{
-				_putchar('\n');
-			}
 }
