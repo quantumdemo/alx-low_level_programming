@@ -12,6 +12,7 @@ void more_numbers(void)
 		_putchar(c + '0');
 		continue;
 	}
+	_putchar('\n');
 	n--;
 	_putchar(9);
 	c++;
