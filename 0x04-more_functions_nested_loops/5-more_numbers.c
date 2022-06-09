@@ -13,8 +13,8 @@ void more_numbers(void)
 		if (c == 14)
 			continue;
 	}
-	_putchar('\n');
 	n--;
 	_putchar(9);
 	c++;
+	_putchar('\n');
 }
