@@ -3,8 +3,9 @@
 /**
  * _isdigit - checks for a digit
  * @c: checks for a digit 
- * Description: check of digit
- * Return: 1 if c is digit and 0 otherwise
+ * 
+ * Return: get 1 if c is digit 
+ * get 0 otherwise
  */
 int _isdigit(int c)
 {
