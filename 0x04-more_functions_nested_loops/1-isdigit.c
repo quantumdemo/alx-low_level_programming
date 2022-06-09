@@ -2,8 +2,9 @@
 #include "main.h"
 /**
  * _isdigit - checks for a digit
- * @c: checks for a digit (0 through 9).
- * Return: 1 or 0
+ * @c: checks for a digit 
+ * Description: check of digit
+ * Return: 1 if c is digit and 0 otherwise
  */
 int _isdigit(int c)
 {
