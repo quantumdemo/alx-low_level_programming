@@ -7,10 +7,11 @@ void more_numbers(void)
 	int c, n;
 	n = 9;
 
-	for (c = 0; c <= 14; c++)
+	for (c = 0; c < 14; c++)
 	{
 		_putchar(c + '0');
-		continue;
+		if (c == 14)
+			continue;
 	}
 	_putchar('\n');
 	n--;
