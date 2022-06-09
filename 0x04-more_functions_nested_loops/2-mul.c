@@ -4,20 +4,11 @@
  * mul - multiplies two integers.
  * @a - integer
  * @b - integer
+ * Return: n
  */
 int mul(int a, int b)
 {
-	int n;
+	int n = a * b;
 
-	if (a == 98 && b == 1024)
-	{
-		n = a * b;
-		_putchar(n + '0');
-	}
-	else if (a == -402 && b == 4096)
-	{
-		n = a* b;
-		_putchar(n + '0');
-	}
 	return (n);
 }
