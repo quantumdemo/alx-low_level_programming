@@ -11,7 +11,7 @@ int mul(int a, int b)
 
 	if (a >= -402 && a <= 98)
 	{
-		if (b >= 409 && <= 1024)
+		if (b >= 1024 && <= 4096)
 		{
 			n = a * b;
 			_putchar(n);
