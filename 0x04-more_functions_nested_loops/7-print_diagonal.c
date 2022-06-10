@@ -11,10 +11,10 @@ void print_diagonal(int n)
 		_putchar(4);
 		_putchar(5);
 		_putchar(10);
+		_putchar('\n');
 	}
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
