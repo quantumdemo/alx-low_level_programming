@@ -6,10 +6,9 @@
  */
 int _strlen(char *s)
 {
-	s[50] = "My first strlen!";
-	int len;
+	int length = 0;
 
-	for (len = 0; s[len] != '\0'; ++i)
-		printf("%d", s);
-	return (0);
+	while (s[length])
+		length++;
+	return (length);
 }
