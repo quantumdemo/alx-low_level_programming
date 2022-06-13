@@ -3,7 +3,7 @@
  * puts2 - that prints every other character of a string, starti
  * @str: the used string reference
  */
-void puts2(char *str)
+void puts_half(char *str);
 {
 	int i;
 
