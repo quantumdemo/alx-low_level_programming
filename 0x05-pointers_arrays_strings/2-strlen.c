@@ -5,10 +5,7 @@
  */
 int _strlen(char *s)
 {
-	int len = 0;
-
-	while (s[length] != '\0')
-		len++;
-	return (len);
-		
+	s = "My first strlen!";
+	
+	_putchar("%n", s);
 }
