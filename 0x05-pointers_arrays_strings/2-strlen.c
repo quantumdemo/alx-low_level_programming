@@ -5,9 +5,9 @@
  */
 int _strlen(char *s)
 {
-	*s = 0;
+	int len = 0;
 
-	while (*s)
-		*s++;
-	return (*s);
+	for (len = 0; *s != '\0'; ++len)
+
+	return (len);
 }
