@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 - that prints every other character of a string, starti
+ * puts_half - that prints every other character of a string, starti
  * @str: the used string reference
  * Return: 0
  */
