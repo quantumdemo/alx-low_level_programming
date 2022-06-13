@@ -7,5 +7,6 @@ int _strlen(char *s)
 {
 	s = "My first strlen!";
 	
-	_putchar("%n", s);
+	printf("%n", s);
+	return (s);
 }
