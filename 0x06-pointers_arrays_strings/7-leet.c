@@ -6,7 +6,7 @@
  *
  * Return: the resulting string;
  */
-char *leet(char *s)
+char *leet(char *str)
 {
 	int indx1 = 0, indx2;
 	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
