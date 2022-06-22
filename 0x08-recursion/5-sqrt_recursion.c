@@ -13,15 +13,15 @@ int _sqrt(int x, int y)
 	if (sum < 0)
 		return (-(y / 2) - 1);
 	if (sum == 0)
-		return(1);
+		return (1);
 	else
 		return (1 + _sqrt(sum, y + 2));
 }
 /**
- * _sqrt_recursion - raiz cuadrada natural
- * @n: number radicando
- * Return: resultado 
- */
+* _sqrt_recursion - raiz cuadrada natural
+* @n: number radicando
+* Return: resultado
+*/
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
