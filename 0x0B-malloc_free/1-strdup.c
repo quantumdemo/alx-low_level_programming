@@ -5,7 +5,7 @@
  * to a newly allocated space in memory
  *
  * @str: Parameter with the string
- * 
+ *
  * Return: Return the new array
  */
 char *_strdup(char *str)
