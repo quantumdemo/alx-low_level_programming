@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * *create_array - function that create an array
- * 
+ *
  * @size: parameter with the size of the array
  * @c: element of the array
  *
