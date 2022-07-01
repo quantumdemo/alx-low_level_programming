@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * *string_nconcat - Function that concatenates two strings
  *
@@ -8,7 +7,7 @@
  * @s2: string 2
  * @n: max bytes of s2
  *
- * Return: Returned pointer shall point to a newly allocated space in memory
+ * Return: Returned pointer shall point to a newly allocated space in m
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -22,6 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 		s1 = "";
+
 	if (s2 != NULL)
 	{
 		while (s2[n2] != 0)
